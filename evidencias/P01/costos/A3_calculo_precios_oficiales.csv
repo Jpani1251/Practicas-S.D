@@ -1,0 +1,21 @@
+proveedor,recurso,configuracion,unidad,precio_mx,precio_us,cantidad,subtotal_mx,subtotal_us
+AWS,VM,t3.medium Linux OD,instancia-hora,0.0437,0.0416,730,31.90,30.37
+AWS,Disco VM,EBS gp3,GB-mes,0.084,0.080,30,2.52,2.40
+AWS,BD,RDS MySQL db.t4g.small Single-AZ,instancia-hora,0.034,0.032,730,24.82,23.36
+AWS,BD almacenamiento,RDS gp3,GB-mes,0.121,0.115,20,2.42,2.30
+AWS,Objetos,S3 Standard,GB-mes,0.02415,0.023,50,1.21,1.15
+AWS,Objetos PUT,S3 PUT/COPY/POST/LIST,por solicitud,0.00000525,0.000005,50000,0.26,0.25
+AWS,Objetos GET,S3 GET,por solicitud,0.00000042,0.0000004,50000,0.02,0.02
+AWS,Balanceador,ALB,ALB-hora,0.023625,0.0225,730,17.25,16.43
+AWS,Balanceador LCU,ALB 1 LCU,LCU-hora,0.0084,0.008,730,6.13,5.84
+AWS,Salida,Data Transfer Out internet,GB,0.09,0.09,100,9.00,9.00
+Azure,VM,B2s Linux PAYG,hora,0.0458,0.0416,730,33.43,30.37
+Azure,Disco VM,Standard SSD E4,disco-mes,2.64,2.40,1,2.64,2.40
+Azure,BD,MySQL Flexible B1ms,vCore-hora,0.0187,0.017,730,13.65,12.41
+Azure,BD almacenamiento,MySQL Flexible storage,GB-mes,0.1265,0.115,20,2.53,2.30
+Azure,Objetos,Blob Hot LRS,GB-mes,0.02288,0.0208,50,1.14,1.04
+Azure,Objetos escritura,Blob Hot LRS write ops,por 10k,0.055,0.05,5,0.28,0.25
+Azure,Objetos lectura,Blob Hot LRS read ops,por 10k,0.0044,0.004,5,0.02,0.02
+Azure,Balanceador,Application Gateway Basic fijo,hora,0.023625,0.0225,730,17.25,16.43
+Azure,Balanceador CU,Application Gateway Basic capacidad,CU-hora,0.0084,0.008,730,6.13,5.84
+Azure,Salida,Internet (100 GB gratis),GB,0,0,100,0.00,0.00
